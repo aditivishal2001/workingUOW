@@ -1,0 +1,12 @@
+create table task
+(
+    id        int          not null
+        primary key,
+    task      varchar(255) not null,
+    completed bit          null
+);
+
+insert into task (id, task, completed)
+values (1,'buy vegetable', false);
+insert into task (id, task, completed)
+values (2,'go to gym', false);
